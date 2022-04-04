@@ -1,0 +1,59 @@
+TENTS - Real-Time Strategy Game
+
+*********************PROJECT IS STILL BEING DEVELOPED*********************
+
+Tents is going to be a simple, STR game placed in harsh, desert landscapce.
+Player is leading a small tribe of nomads, trying to survive as long as 
+possible, wich would be the main game's purpose. Player is starting the game 
+with a few tribe members - basic unit, and one Great Tent - main structure.
+
+Resources in game:
+Water - most important resource in the game. Each living unit is draining a 
+small portion of water from one, common source of CollectedWater of the 
+player. Once unable to, units are beging to slowly lose health. Water can be 
+get from many different WaterSources in the level by players unit and 
+delivered to closesed Great Tent, to be added to player's CollectedWater.
+Wood - Gathered from trees and branches. Used to build new Structures and
+equipment for units.
+Leather - Gathered from killed animals. Used to build new Structures and
+equipment for units.
+
+Objects in the game:
+Units - planned to be a few different kinds, with different levels of stats:
+Health, Amount of Water needed to survive, amount of Water able to carry, 
+Dehydration Rate (how fast is unit losing health while unable to drink).
+Stuctures - build from wood and leather. Player will start with Great Tent,
+where he can create new units, and gather all recources. Others will be:
+Family Tent (enabling new units to be created), Inventors Tent (for creating 
+new equipment). Mechanics unique for the game would be deassebling Tents and
+moving them to other location in search for resources, that are running out 
+fast.
+Water Sources - lakes, puddles, rivers. All with limited amount of water, 
+running out as player is gathering water from them.
+Animals - more or less agresive, neutral units.  
+
+To do:					Done:
+fighting and dying			base Unit, WaterSource and Stucture class
+building and movining stuctures		selecting and moving units
+multiplayer implementation		gathering resources
+animals					drinking and losing health while unable to
+More types of units and buildings	in-game information (HUD)
+inventory system
+						
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
